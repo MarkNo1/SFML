@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/Game.hpp
+SFML/Graphics.hpp
+-
+
+/home/mark/Github/SFML-Book/chapter1_sprite/src/Game.cpp
+Game.hpp
+-
+iostream
+-
+
+/home/mark/Github/SFML-Book/chapter1_sprite/src/main.cpp
+Game.hpp
+-
+
