@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/Game.hpp
+SFML/Graphics.hpp
+-
+Resource/ResourceHolder.hpp
+-
+Resource/ResourceIdentifiers.hpp
+-
+
+../lib/Resource/ResourceHolder.hpp
+map
+-
+string
+-
+memory
+-
+stdexcept
+-
+cassert
+-
+ResourceHolder.inl
+../lib/Resource/ResourceHolder.inl
+
+../lib/Resource/ResourceHolder.inl
+
+../lib/Resource/ResourceIdentifiers.hpp
+
+/home/mark/Github/SFML-Book/chapter2/src/Game.cpp
+Game.hpp
+-
+iostream
+-
+
+/home/mark/Github/SFML-Book/chapter2/src/main.cpp
+Game.hpp
+-
+
