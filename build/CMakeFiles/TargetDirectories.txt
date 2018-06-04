@@ -1,0 +1,3 @@
+/home/mark/Github/SFML-Book/build/CMakeFiles/edit_cache.dir
+/home/mark/Github/SFML-Book/build/CMakeFiles/rebuild_cache.dir
+/home/mark/Github/SFML-Book/build/CMakeFiles/game.dir

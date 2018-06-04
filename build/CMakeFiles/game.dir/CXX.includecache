@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/Game.hpp
+SFML/Graphics.hpp
+-
+
+/home/mark/Github/SFML-Book/src/Game.cpp
+Game.hpp
+-
+
+/home/mark/Github/SFML-Book/src/main.cpp
+Game.hpp
+-
+
